@@ -69,6 +69,20 @@ ul a:hover {
   right: 10px;
 }
 
+.cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #171a1e;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Geist";
+  padding: 10px;
+}
+
 .title {
   text-align: center;
   margin-top: 20px;
@@ -77,6 +91,23 @@ ul a:hover {
   font-family: "Spline Sans";
   font-weight: 400;
   width: 70%;
+}
+
+.section-1,
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 {
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-2 {
+  background: #171a1e;
 }
 
 footer {
