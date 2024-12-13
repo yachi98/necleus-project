@@ -29,3 +29,21 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
+.circle {
+  border-radius: 50%;
+  background: black;
+  width: 13.7px;
+  height: 13.7px;
+  position: absolute;
+  left: 13px;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
