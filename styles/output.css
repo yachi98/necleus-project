@@ -60,7 +60,7 @@ ul a:hover {
   position: relative;
 }
 
-.menu-btn {
+.mobile-menu-btn {
   display: none;
   font-size: 24px;
   cursor: pointer;
