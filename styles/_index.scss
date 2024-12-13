@@ -1,0 +1,25 @@
+// @import "variables";
+// @import "fonts";
+// @import "header";
+// @import "main";
+// @import "section";
+// @import "footer";
+
+// Global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1580px;
+  margin: 0 auto;
+  background: #fcfcf4;
+}
+
+h1 {
+  font-family: "Spline Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
