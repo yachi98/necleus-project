@@ -27,7 +27,7 @@ ul {
 }
 ul a {
   text-decoration: none;
-  color: #171a1e;
+  color: var(--primary-font-color);
   font-size: 16px;
   font-weight: 500;
   font-family: "Geist";
@@ -90,7 +90,7 @@ ul a:hover {
   font-size: 108px;
   font-family: "Spline Sans";
   font-weight: 400;
-  width: 70%;
+  width: 75%;
 }
 
 .section-1,
@@ -108,6 +108,41 @@ ul a:hover {
 
 .section-2 {
   background: #171a1e;
+}
+
+.image {
+  width: 712px;
+  height: 524px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.subheading-btn-1,
+.subheading-btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.subheading-btn-1 {
+  background: none;
+  color: #171a1e;
+}
+
+.subheading-btn-2 {
+  background: #171a1e;
+  color: #ffffff;
 }
 
 footer {
