@@ -47,3 +47,12 @@ ul {
   gap: 5px;
   position: relative;
 }
+
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+}
