@@ -1,0 +1,31 @@
+// Navigation
+nav {
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+    color: #171a1e;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Geist";
+
+    &:hover {
+      color: black;
+      transition: 0.3s all ease-in-out;
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
