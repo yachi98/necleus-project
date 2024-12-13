@@ -1,4 +1,6 @@
+@use "variables";
 // Navigation
+
 nav {
   padding: 10px;
 }
@@ -13,7 +15,7 @@ ul {
 
   a {
     text-decoration: none;
-    color: #171a1e;
+    color: $primary-font-color;
     font-size: 16px;
     font-weight: 500;
     font-family: "Geist";
