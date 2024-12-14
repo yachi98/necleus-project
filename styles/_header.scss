@@ -73,3 +73,13 @@ ul {
   font-family: "Geist";
   padding: 10px;
 }
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+
+  .cta-btn {
+    display: block;
+  }
+}
