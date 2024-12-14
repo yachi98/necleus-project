@@ -40,6 +40,7 @@ ul a:hover {
 .navigation {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .circle {
@@ -93,6 +94,13 @@ ul a:hover {
   width: 75%;
 }
 
+.hero-paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Geist";
+}
+
 .section-1,
 .section-2 {
   width: 100%;
@@ -108,13 +116,7 @@ ul a:hover {
 
 .section-2 {
   background: #171a1e;
-}
-
-.image {
-  width: 712px;
-  height: 524px;
-  border-radius: 5px;
-  object-fit: cover;
+  padding: 80px;
 }
 
 .btn-container {
@@ -133,6 +135,9 @@ ul a:hover {
   gap: 5px;
   padding: 10px;
   cursor: pointer;
+  font-weight: 600;
+  font-family: "Geist";
+  font-size: 16px;
 }
 
 .subheading-btn-1 {
@@ -145,10 +150,57 @@ ul a:hover {
   color: #ffffff;
 }
 
-footer {
-  font-size: 1.4rem;
-  padding: 0.5rem 0 1rem;
-  border-top: 1px solid;
+.section-2-container {
+  padding: 80px;
+  width: 50%;
+}
+
+.image {
+  width: 712px;
+  height: 524px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.hubspot-heading {
+  font-size: 44px;
+  font-weight: 400;
+  color: white;
+}
+
+.hubspot-para {
+  margin-top: 25px;
+  color: white;
+  font-family: "Geist";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.accordion-container {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: none;
+}
+
+.accordion-title {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  width: 900px;
+  text-decoration: underline;
 }
 
 * {
