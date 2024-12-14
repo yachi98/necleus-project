@@ -41,7 +41,7 @@
 
 .section-2 {
   background: #171a1e;
-  padding: 40px;
+  display: flex;
 }
 
 .btn-container {
@@ -78,8 +78,16 @@
 
 .section-2-container {
   padding: 80px;
-  width: 50%;
+  //   width: 50%;
   background-color: red;
+}
+
+.section-2-box {
+  background-color: royalblue;
+  padding: 80px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
 }
 
 .image {
@@ -91,9 +99,10 @@
 
 .hubspot-heading {
   font-size: 44px;
+  font-family: "Spline Sans";
   font-weight: 400;
   color: white;
-  width: 70%;
+  width: 80%;
 }
 
 .hubspot-para {
@@ -117,6 +126,7 @@
   font-family: "Geist";
   font-size: 16px;
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 .accordion-container {
