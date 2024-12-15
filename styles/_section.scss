@@ -155,3 +155,53 @@
   width: 900px;
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px; /* Reduce title font size */
+    width: 90%; /* Make title span more space */
+  }
+
+  .subheading {
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .subheading-paragraph {
+    width: 90%; /* Make paragraph span more space */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .btn-container {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Adjust spacing */
+  }
+
+  .image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .accordion-title {
+    width: 100%; /* Adjust accordion width */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .hubspot-heading {
+    font-size: 28px; /* Scale down heading size */
+  }
+
+  .hubspot-para {
+    font-size: 14px; /* Adjust paragraph font size */
+  }
+
+  .section-1,
+  .section-2 {
+    height: auto; /* Allow sections to adjust to content height */
+    padding: 20px; /* Add padding */
+  }
+
+  .section-2-container,
+  .section-2-box {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+}
