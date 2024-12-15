@@ -5,7 +5,7 @@ nav {
   padding: 10px;
 }
 
-ul {
+.nav-menu {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -51,6 +51,28 @@ ul {
   position: relative;
 }
 
+// ul {
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 10px;
+//   gap: 40px;
+//   list-style: none;
+//   text-decoration: none;
+
+//   a {
+//     text-decoration: none;
+//     color: var(--primary-font-color);
+//     font-size: 16px;
+//     font-weight: 500;
+//     font-family: "Geist";
+
+//     &:hover {
+//       color: black;
+//       transition: 0.3s all ease-in-out;
+//     }
+//   }
+// }
+
 .mobile-nav-menu {
   list-style: none;
   padding: 0;
@@ -61,6 +83,7 @@ ul {
   right: 0;
   height: 100vh;
   width: 100%;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -68,7 +91,13 @@ ul {
   transition: transform 0.3s ease-in-out;
 }
 
+.open {
+  transform: translateX(0);
+}
+
 .mobile-menu-btn {
+  width: 50px;
+  height: 50px;
   right: 10px;
   z-index: 999;
   position: absolute;
@@ -76,9 +105,9 @@ ul {
   transform: rotate(180deg);
   font-size: 24px;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
-
+  display: none;
   top: 10px;
   right: 10px;
   z-index: 10;
@@ -122,10 +151,6 @@ ul {
   stroke-width: 4;
 }
 
-.mobile-nav-menu.open {
-  transform: translateX(0);
-}
-
 .cta-btn {
   display: flex;
   justify-content: center;
@@ -141,7 +166,7 @@ ul {
 }
 
 @media (max-width: 768px) {
-  ul {
+  .nav-menu {
     display: none;
   }
 
