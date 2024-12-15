@@ -21,3 +21,11 @@ document.addEventListener("click", (e) => {
       content.style.display === "block" ? "none" : "block";
   }
 });
+
+const menuBtn = document.querySelector(".mobile-menu-btn");
+const navMenu = document.querySelector(".nav-menu");
+
+menuBtn.addEventListener("click", () => {
+  console.log("hi");
+  navMenu.classList.toggle("open");
+});
