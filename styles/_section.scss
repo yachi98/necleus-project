@@ -40,7 +40,7 @@
 }
 
 .section-2 {
-  background: #171a1e;
+  background: var(--primary-font-color);
   display: flex;
 }
 
@@ -68,11 +68,11 @@
 
 .subheading-btn-1 {
   background: none;
-  color: #171a1e;
+  color: var(--primary-font-color);
 }
 
 .subheading-btn-2 {
-  background: #171a1e;
+  background: var(--primary-font-color);
   color: #ffffff;
 }
 
@@ -115,7 +115,7 @@
 
 .hubspot-btn {
   background: #ffffff;
-  color: #171a1e;
+  color: var(--primary-font-color);
   display: flex;
   justify-content: center;
   align-items: center;

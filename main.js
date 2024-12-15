@@ -23,9 +23,9 @@ document.addEventListener("click", (e) => {
 });
 
 const menuBtn = document.querySelector(".mobile-menu-btn");
-const navMenu = document.querySelector(".nav-menu");
+const mobileNavMenu = document.querySelector(".mobile-nav-menu");
 
 menuBtn.addEventListener("click", () => {
   console.log("hi");
-  navMenu.classList.toggle("open");
+  mobileNavMenu.classList.toggle("open");
 });
