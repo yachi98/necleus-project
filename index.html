@@ -36,9 +36,14 @@
           <button
             class="mobile-menu-btn"
             onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
-            aria-label="Main Menu"
+            aria-label="Main Menu toggle"
           >
-            <svg width="40" height="40" viewBox="0 0 100 100">
+            <svg
+              alt="Hamburger menu icon"
+              width="40"
+              height="40"
+              viewBox="0 0 100 100"
+            >
               <path
                 class="line line1"
                 d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
@@ -65,6 +70,7 @@
           <div>
             <button aria-label="call to action button" class="cta-btn">
               <svg
+                alt="arrow icon"
                 width="20"
                 height="20"
                 viewBox="0 0 20 20"
@@ -91,6 +97,7 @@
         <h1 class="title">
           Modern
           <svg
+            role="img"
             width="82"
             height="60"
             viewBox="0 0 82 60"
@@ -114,6 +121,7 @@
           </svg>
           & Versatile
           <svg
+            role="img"
             width="82"
             height="60"
             viewBox="0 0 82 60"
@@ -137,6 +145,7 @@
           </svg>
           Hubspot
           <svg
+            role="img"
             width="79"
             height="60"
             viewBox="0 0 79 60"
@@ -160,6 +169,7 @@
           </svg>
           Theme
           <svg
+            role="img"
             width="82"
             height="60"
             viewBox="0 0 82 60"
@@ -230,8 +240,9 @@
       <section class="section-2">
         <div class="section-2-container">
           <img
+            alt="image of a person"
             class="image"
-            src="https://s3-alpha-sig.figma.com/img/4f55/7739/bd48e3badd6a9402974836b0da7ae83a?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gyEyWLod6-uH6b3J5vgeGVSF2XZR9PBfN-bX2Xxbftr2BE3lr6-bzHjHvOkO0cafSDRnhPm2N-RntzJtt86s9qIKylzoIJfV690taRHRQYpRdtP1VIn9IARzXne9-8gRilmatHDyM7nb2r7WQtyUbkxy8zf1PP7winnOQ-kE2V94BXYK4dNsdQJD-nofUCbtPTTLLcoYKb6ZCCudk0ti-JSBxm1GYLow~k791spZGPmYPvMolCpVcVdbzQ5LdmLfSlJtajOHOn1vVl3Cjh-T9EXWJl4r4aY54tcqVyC-VAqsZkuWTxNKlaHczNUxEMgwPYnVCEaK9Xu8A5JlKS5GYA__"
+            src="assets/images/image-woman.png"
           />
         </div>
         <div class="section-2-box">
@@ -242,7 +253,7 @@
               eiusmod tempor incididunt ut labore et.
             </p>
 
-            <button class="hubspot-btn" type="submit">
+            <button class="hubspot-btn">
               <svg
                 width="20"
                 height="20"
@@ -289,7 +300,12 @@
                 </svg>
               </button>
             </div>
-            <div id="accordion1" aria-hidden="true" class="accordion-content">
+            <div
+              id="accordion1"
+              aria-hidden="true"
+              aria-labelledby="accordion-btn-1"
+              class="accordion-content"
+            >
               <p>This is the content of Section 1.</p>
             </div>
 
@@ -319,7 +335,12 @@
                 </svg>
               </button>
             </div>
-            <div id="accordion2" aria-hidden="true" class="accordion-content">
+            <div
+              id="accordion2"
+              aria-hidden="true"
+              aria-labelledby="accordion-btn-2"
+              class="accordion-content"
+            >
               <p>This is the content of Section 2.</p>
             </div>
 
@@ -351,6 +372,7 @@
             </div>
             <div
               id="accordion3"
+              aria-labelledby="accordion-btn-3"
               aria-hidden="true"
               class="accordion-content"
               class="accordion-content"
