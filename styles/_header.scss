@@ -18,7 +18,7 @@ nav {
     color: var(--primary-font-color);
     font-size: 16px;
     font-weight: 500;
-    font-family: "Geist, sans-serif";
+    font-family: "Geist", sans-serif;
 
     &:hover {
       color: black;
@@ -44,7 +44,7 @@ nav {
 
 .logo-name {
   font-size: bolder;
-  font-family: "Geist, sans-serif";
+  font-family: "Geist", sans-serif;
 }
 
 .logo {
@@ -156,7 +156,7 @@ nav {
   border: none;
   color: white;
   cursor: pointer;
-  font-family: "Geist, sans-serif";
+  font-family: "Geist", sans-serif;
   padding: 10px;
 }
 
