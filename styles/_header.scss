@@ -18,7 +18,7 @@ nav {
     color: var(--primary-font-color);
     font-size: 16px;
     font-weight: 500;
-    font-family: "Geist";
+    font-family: "Geist, sans-serif";
 
     &:hover {
       color: black;
@@ -91,19 +91,18 @@ nav {
   transition: transform 0.3s ease-in-out;
 }
 
-.open {
+.mobile-nav-menu .open {
+  display: flex;
   transform: translateX(0);
 }
 
 .mobile-menu-btn {
-  width: 50px;
-  height: 50px;
   right: 10px;
+  padding: 5px;
   z-index: 999;
   position: absolute;
   top: 10px;
   transform: rotate(180deg);
-  font-size: 24px;
   cursor: pointer;
   padding: 5px;
   position: fixed;
@@ -111,44 +110,43 @@ nav {
   top: 10px;
   right: 10px;
   z-index: 10;
-  background: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: none;
+  border: none;
 }
 
 .line {
   fill: none;
-  stroke: #7dfdfe;
-  stroke-width: 3;
+  stroke: black;
+  stroke-width: 4;
   transition: stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .line1 {
   stroke-dasharray: 40 207;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .line2 {
   stroke-dasharray: 60 60;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .line3 {
   stroke-dasharray: 40 260;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .opened .line1 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .opened .line2 {
   stroke-dasharray: 1 60;
   stroke-dashoffset: -30;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .opened .line3 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 
 .cta-btn {
@@ -161,7 +159,7 @@ nav {
   border: none;
   color: white;
   cursor: pointer;
-  font-family: "Geist";
+  font-family: "Geist, sans-serif";
   padding: 10px;
 }
 
@@ -171,7 +169,7 @@ nav {
   }
 
   .mobile-menu-btn {
-    display: block;
+    display: flex;
   }
 
   .cta-btn {
