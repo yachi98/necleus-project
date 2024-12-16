@@ -2,26 +2,29 @@
 // Navigation
 
 nav {
-  padding: 10px;
+  padding: 20px;
 }
 
 .nav-menu {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  padding: 20px;
   gap: 40px;
   list-style: none;
   text-decoration: none;
 
   a {
     text-decoration: none;
-    color: var(--primary-font-color);
+    color: $primary-color;
     font-size: 16px;
     font-weight: 500;
     font-family: "Geist", sans-serif;
 
     &:hover {
-      color: black;
+      background: $primary-color;
+      color: $secondary-color;
+      border-radius: 10px;
+      padding: 10px;
       transition: 0.3s all ease-in-out;
     }
   }
@@ -35,7 +38,7 @@ nav {
 
 .circle {
   border-radius: 50%;
-  background: black;
+  background: $primary-color;
   width: 13.7px;
   height: 13.7px;
   position: absolute;
@@ -55,9 +58,10 @@ nav {
   position: relative;
 }
 
+// Mobile menu
 .mobile-nav-menu li a {
   text-decoration: none;
-  color: $secondary-font-color;
+  color: $secondary-color;
   font-family: "Geist", sans-serif;
 }
 
@@ -65,7 +69,7 @@ nav {
   list-style: none;
   padding: 100px;
   margin: 0;
-  background: $primary-font-color;
+  background: $primary-color;
   position: fixed;
   top: 0;
   right: 0;
@@ -82,7 +86,6 @@ nav {
 }
 
 .mobile-nav-menu.opened {
-  // display: flex;
   transform: translateX(0);
 }
 
@@ -103,10 +106,10 @@ nav {
   border: none;
 }
 
-// Hamburger menu
+// Hamburger menu icon
 .line {
   fill: none;
-  stroke: black;
+  stroke: $primary-color;
   stroke-width: 4;
   transition: stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,7 +149,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #171a1e;
+  background: $primary-color;
   gap: 10px;
   border-radius: 5px;
   border: none;
@@ -156,6 +159,7 @@ nav {
   padding: 10px;
 }
 
+// Media queries
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
@@ -163,20 +167,6 @@ nav {
 
   .mobile-menu-btn {
     display: flex;
-    // display: none;
-    // right: 10px;
-    // padding: 5px;
-    // z-index: 999;
-    // position: absolute;
-    // top: 10px;
-    // transform: rotate(180deg);
-    // cursor: pointer;
-    // padding: 5px;
-    // top: 10px;
-    // right: 10px;
-    // z-index: 10;
-    // background: none;
-    // border: none;
   }
 
   .cta-btn {

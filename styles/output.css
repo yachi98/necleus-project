@@ -14,26 +14,29 @@
   font-weight: 500;
 }
 nav {
-  padding: 10px;
+  padding: 20px;
 }
 
 .nav-menu {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  padding: 20px;
   gap: 40px;
   list-style: none;
   text-decoration: none;
 }
 .nav-menu a {
   text-decoration: none;
-  color: var(--primary-font-color);
+  color: #171a1e;
   font-size: 16px;
   font-weight: 500;
   font-family: "Geist", sans-serif;
 }
 .nav-menu a:hover {
-  color: black;
+  background: #171a1e;
+  color: #fcfcf4;
+  border-radius: 10px;
+  padding: 10px;
   transition: 0.3s all ease-in-out;
 }
 
@@ -45,7 +48,7 @@ nav {
 
 .circle {
   border-radius: 50%;
-  background: black;
+  background: #171a1e;
   width: 13.7px;
   height: 13.7px;
   position: absolute;
@@ -114,7 +117,7 @@ nav {
 
 .line {
   fill: none;
-  stroke: black;
+  stroke: #171a1e;
   stroke-width: 4;
   transition: stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -258,13 +261,13 @@ nav {
   color: #fcfcf4;
 }
 
-.section-2-container {
+.section-2-container-1 {
   background: #171a1e;
   width: 100%;
   padding: 50px;
 }
 
-.section-2-box {
+.section-2-container-2 {
   background: #171a1e;
   width: 100%;
   padding: 50px;
@@ -279,7 +282,7 @@ nav {
   object-fit: cover;
 }
 
-.hubspot-heading {
+.section-2-subheading {
   font-size: 44px;
   font-family: "Spline Sans", sans-serif;
   font-weight: 400;
@@ -287,7 +290,7 @@ nav {
   width: 80%;
 }
 
-.hubspot-para {
+.section-2-paragraph {
   margin-top: 25px;
   color: #fcfcf4;
   font-family: "Geist", sans-serif;
@@ -295,7 +298,7 @@ nav {
   font-size: 16px;
 }
 
-.hubspot-btn {
+.section-2-cta-btn {
   background: #fcfcf4;
   color: #171a1e;
   display: flex;
@@ -348,14 +351,14 @@ nav {
 }
 
 @media (max-width: 1024px) {
-  .section-2-box,
-  .section-2-container {
+  .section-2-container-1,
+  .section-2-container-2 {
     padding: 40px;
   }
   .title {
     font-size: 70px;
   }
-  .hubspot-heading {
+  .section-2-subheading {
     font-size: 30px;
   }
 }
@@ -383,11 +386,8 @@ nav {
     width: 100%;
     font-size: 14px;
   }
-  .hubspot-heading {
+  .section-2-subheading {
     font-size: 28px;
-  }
-  .hubspot-para {
-    font-size: 14px;
   }
   .section-1 {
     height: auto;
@@ -396,8 +396,8 @@ nav {
   .section-2 {
     flex-direction: column;
   }
-  .section-2-box,
-  .section-2-container {
+  .section-2-container-1,
+  .section-2-container-2 {
     padding: 40px;
   }
 }
@@ -410,7 +410,7 @@ nav {
 body {
   max-width: 1580px;
   margin: 0 auto;
-  background: #fcfcf4;
+  background: #fbfbf5;
 }
 
 /*# sourceMappingURL=output.css.map */
