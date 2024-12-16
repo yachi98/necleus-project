@@ -52,6 +52,11 @@ nav {
   left: 13px;
 }
 
+.logo-name {
+  font-size: bolder;
+  font-family: "Geist, sans-serif";
+}
+
 .logo {
   display: flex;
   text-align: center;
@@ -248,13 +253,13 @@ nav {
 }
 
 .section-2-container {
-  background-color: red;
+  background: #171a1e;
   width: 100%;
   padding: 50px;
 }
 
 .section-2-box {
-  background-color: royalblue;
+  background: #171a1e;
   width: 100%;
   padding: 50px;
 }
@@ -327,7 +332,7 @@ nav {
 @media (max-width: 1024px) {
   .section-2-box,
   .section-2-container {
-    padding: 20px;
+    padding: 40px;
   }
   .hubspot-heading {
     font-size: 30px;
