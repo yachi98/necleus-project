@@ -341,7 +341,8 @@ nav {
 
 .accordion-content {
   padding: 10px;
-  background-color: red;
+  background: none;
+  color: #fcfcf4;
   display: none;
 }
 
