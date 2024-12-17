@@ -2,30 +2,20 @@
   font-family: "Spline Sans";
   src: url("../assets/fonts/Satoshi-Regular.woff2");
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: "Geist";
   src: url("../assets/fonts/Satoshi-Medium.woff2");
   font-weight: 600;
+  font-display: swap;
 }
 @font-face {
   font-family: "Geist";
   src: url("../assets/fonts/Satoshi-Bold.woff2");
   font-weight: 500;
+  font-display: swap;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 1580px;
-  margin: 0 auto;
-  background: #fbfbf5;
-}
-
 nav {
   padding: 20px;
 }
@@ -132,8 +122,7 @@ nav {
   fill: none;
   stroke: #171a1e;
   stroke-width: 4;
-  transition: stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
-    stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .line1 {
@@ -414,6 +403,17 @@ nav {
   .section-2-container-2 {
     padding: 40px;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1580px;
+  margin: 0 auto;
+  background: #fbfbf5;
 }
 
 /*# sourceMappingURL=output.css.map */
