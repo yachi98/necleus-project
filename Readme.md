@@ -1,6 +1,6 @@
 ## Necleus
 
-This is a JavaScript web application that replicates a Hubspot module.
+This is a JavaScript web application that replicates a Necleus website.
 
 ## Features
 
