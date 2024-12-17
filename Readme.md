@@ -18,3 +18,7 @@ This is a JavaScript web application that replicates a Hubspot module.
 ## Steps
 
 - Clone the repository: git clone https://github.com/yachi98/necleus-project.git
+
+<h3>Lighthouse report</h3>
+
+<img alt="lighthouse report" src="./assets/images/lighthouse.png" width="100%">
