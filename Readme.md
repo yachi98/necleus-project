@@ -13,7 +13,7 @@ This is a JavaScript web application that replicates a Necleus website.
 
 - HTML
 - SCSS
-- Vanilla JS
+- JavaScript
 
 ## Steps
 
